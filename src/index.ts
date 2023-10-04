@@ -10,7 +10,6 @@ duckButton.addEventListener("click", () => {
 englishButton.addEventListener("click", () => {
     DisplayTranslation("english");
 });
-
 type LooseObject = {[k: string]: string};
 type LanguageType = keyof {duck: string; english: string};
 type Collections = {collection: string; type: LanguageType};
